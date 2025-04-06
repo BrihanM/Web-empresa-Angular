@@ -1,4 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
-:root{
-    color-scheme: light dark;
+:root {
+    color-scheme: dark;
+    --primary-color: #5acef1;
+    --secondary-color: #222f3e;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+section {
+    padding: 100px 0;
+}
+
+.navbar {
+    transition: all 0.3s;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.social-links a {
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    opacity: 0.8;
+}
+
+/* Animaciones */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.btn-primary {
+    background-color: #4ECDC4 !important;
+    border-color: #4ECDC4 !important;
+}
+
+#contact{
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
