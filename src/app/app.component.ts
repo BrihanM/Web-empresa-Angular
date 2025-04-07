@@ -10,13 +10,9 @@ import { ContactComponent } from './contact/contact.component';
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet, 
-    HomeComponent, 
-    NavBarComponent, 
-    ServicesComponent, 
-    FooterComponent, 
-    AboutUsComponent, 
-    ContactComponent
+    RouterOutlet,
+    NavBarComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
