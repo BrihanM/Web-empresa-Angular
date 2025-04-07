@@ -1,0 +1,59 @@
+<!-- Sección Contacto -->
+<section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h4 class="text-center mb-5">Contacto</h4>
+        <h2 class="text-center">¿Cómo podemos ayudarte?</h2>
+        <p class="text-center">Cuéntanos de qué manera podemos ayudarte a impulsar la innovación a través del Desarrollo de Software.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8" id="contactForm">
+                <form action="https://formspree.io/f/xgvalnar" method="POST" class="my-4">
+                    <label class="w-100 mb-3">
+                        Nombre:
+                        <input type="text" 
+                               name="name" 
+                               placeholder="Tu nombre" 
+                               class="form-control mt-1"
+                               required>
+                    </label>
+                
+                    <label class="w-100 mb-3">
+                        Correo:
+                        <input type="email" 
+                               name="email" 
+                               placeholder="your@email.com"
+                               class="form-control mt-1"
+                               required>
+                    </label>
+
+                    <label class="w-100 mb-3">
+                        Número de contacto:
+                        <input type="number" 
+                               name="number" 
+                               placeholder="Tu número de contacto"
+                               class="form-control mt-1"
+                               >
+                    </label>
+                
+                    <label class="w-100 mb-4">
+                        Mensaje:
+                        <textarea name="message" 
+                                  rows="5"
+                                  placeholder="Describe brevemente que tienes en mente para agendar una reunión!" 
+                                  class="form-control mt-1"
+                                  required></textarea>
+                    </label>
+
+                    <label class="w-100 mb-3">
+                        <input type="checkbox" 
+                               name="data"
+                               placeholder="Acepto los términos y condiciones"
+                               required>
+                               Acepto que NexAur Technologies almacene y trate mis datos personales.*
+                    </label>
+                
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
